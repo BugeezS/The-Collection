@@ -33,12 +33,13 @@ header{
         }
         .h2_card{
             padding-left: 10px;
+            margin-top: -10px;
         }
         .text_card{
             background-color: aliceblue;
             border-radius: 15px;
             width: 340px;
-            height: 150px;
+            height: 120px;
         }
         .par_un{
             padding-left: 10px;
@@ -49,14 +50,13 @@ header{
         }
         .par_trois{
             padding-left: 10px;
-            word-wrap: break-word;
         }
         
     }
 }
 @media  screen and (min-width: 1440px) {
     .card_container{
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
 

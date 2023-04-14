@@ -6,14 +6,14 @@ const collection = [
         author: "Eiichirō Oda",
         releaseYear: 1997,
         picture: "img/91-912785_homme-en-costume-debout-hombre-de-traje-png.jpeg",
-        genre: ["Nekketsu", "Aventure", "Comédie", "Drame", "Fantasy", "Humour", "Satire"],
+        genre: ["Nekketsu", "Aventure", "Comédie"],
     },
     {
         name: "Dragon Ball",
         author: "Akira Toriyama",
         releaseYear: 1984,
         picture: "img/dragon_ball_arrive_enfin_en_streaming_en_france_637ce1a2326ae.jpg",
-        genre: ["Nekketsu", "Action", "Aventure", "Science-Fiction", "Comédie", "Humour", "Gag"],
+        genre: ["Nekketsu", "Action", "Aventure"],
     },
     {
         name: "Death Note",
@@ -27,7 +27,7 @@ const collection = [
         author: "Kentarō Miura",
         releaseYear: 1989,
         picture: "img/Detail-de-la-couverture-du-tome-5-de-Berserk-de-Kentaro-Miura-1041584.jpg",
-        genre: ["Action", "Aventure", "Drame", "Horreur", "Dark Fantasy", "Heroic Fantasy"]
+        genre: ["Action", "Aventure", "Drame"]
     },
     {
         name: "Fullmetal Alchemist",
@@ -55,7 +55,7 @@ const collection = [
         author: "Hajime Isayama",
         releaseYear: 2009,
         picture: "img/snk-pfa.jpg",
-        genre : ["Action", "Dark Fantasy", "Horreur", "Mystère", "Tragédie", "Thriller"],
+        genre : ["Action", "Dark Fantasy", "Horreur"],
     },
     {
         name: "Monster",
@@ -83,6 +83,11 @@ collection.forEach(element => {
     newImg.classList.add("img_card");
     newImg.src = element.picture;
 
+    const parTrois= document.createElement("p");
+    newDiv.appendChild(parTrois);
+    parTrois.classList.add("par_trois");
+    parTrois.textContent = element.genre;
+
     const newH2 = document.createElement("h2");
     newDiv.appendChild(newH2);
     newH2.classList.add("h2_card");
@@ -101,10 +106,5 @@ collection.forEach(element => {
     divText.appendChild(parDeux);
     parDeux.classList.add("par_deux");
     parDeux.textContent = element.releaseYear;
-
-    const parTrois= document.createElement("p");
-    divText.appendChild(parTrois);
-    parTrois.classList.add("par_trois");
-    parTrois.textContent = element.genre;
 
 });

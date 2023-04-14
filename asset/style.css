@@ -20,7 +20,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   justify-content: space-around;
 }
 .card_container .card_box {
@@ -77,9 +76,17 @@ body {
   header {
     flex-direction: row;
   }
+  header h1 {
+    align-self: center;
+  }
   header img {
-    width: 200px;
+    width: 180px;
+    padding-bottom: 50px;
     border-radius: 75%;
+    margin-right: 50px;
+  }
+  header select {
+    margin-left: 980px;
   }
   .card_container {
     justify-content: space-around;

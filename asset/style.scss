@@ -9,6 +9,7 @@ header{
         width: 350px;
         padding-top: 20px;
     }
+
 }
 body{
     background-color: #4B1D3F;
@@ -18,7 +19,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
 
     .card_box{
@@ -72,18 +72,30 @@ body{
         
     }
 
+
 }
 @media  screen and (min-width: 1440px) {
 
     header{
         flex-direction: row;
+        h1{
+            align-self: center;
+        }
         img{
-            width: 200px;
+            width: 180px;
+            padding-bottom: 50px;
             border-radius: 75%;
+            margin-right: 50px;
+        }
+        select{
+            margin-left: 980px;
         }
     }
     .card_container{
         justify-content: space-around;
+    }
+    .card_box{
+
     }
     .card_box:hover{
         

@@ -21,6 +21,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
 }
 .card_container .card_box {
   display: flex;
@@ -69,9 +70,7 @@ body {
   background: url(/img/trash-solid.svg) no-repeat;
   width: 25px;
   height: 25px;
-}
-.card_container .card_box:hover img {
-  filter: blur(3px);
+  border: 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -84,5 +83,8 @@ body {
   }
   .card_container {
     justify-content: space-around;
+  }
+  .card_box:hover img {
+    filter: blur(3px);
   }
 }/*# sourceMappingURL=style.css.map */

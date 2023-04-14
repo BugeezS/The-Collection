@@ -19,6 +19,8 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
+
     .card_box{
         display: flex;
         flex-direction: column;
@@ -65,14 +67,9 @@ body{
             background: url(/img/trash-solid.svg) no-repeat;
             width: 25px;
             height: 25px;
+            border: 0;
         }
         
-    }
-    .card_box:hover{
-        
-        img{
-            filter: blur(3px);
-        }
     }
 
 }
@@ -87,6 +84,12 @@ body{
     }
     .card_container{
         justify-content: space-around;
+    }
+    .card_box:hover{
+        
+        img{
+            filter: blur(3px);
+        }
     }
 }
 

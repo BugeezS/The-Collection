@@ -107,13 +107,12 @@ let section = document.querySelector(".card_container");
         parDeux.classList.add("par_deux");
         parDeux.textContent = element.releaseYear;
     
-        // Code to create and add a delete button
         const deleteBtn = document.createElement("button");
         deleteBtn.classList.add("del_but"),
-        deleteBtn.textContent = "Delete";
+        // deleteBtn.textContent = "Delete";
         divText.appendChild(deleteBtn);
         deleteBtn.addEventListener("click", () => {
-            newDiv.remove(); // Remove the corresponding div element from the DOM
+            newDiv.remove(); 
           });
     });
     

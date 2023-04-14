@@ -67,7 +67,7 @@ body {
 .card_container .card_box .del_but {
   color: red;
   margin-left: 300px;
-  background: url(img/trash-solid.svg) no-repeat;
+  background: url(../img/trash-solid.svg) no-repeat;
   width: 25px;
   height: 25px;
   border: 0;

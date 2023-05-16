@@ -1,0 +1,72 @@
+[
+    {
+        "name": "One Piece",
+        "author": "Eiichirō Oda",
+        "releaseYear": 1997,
+        "picture": "img/91-912785_homme-en-costume-debout-hombre-de-traje-png.jpeg",
+        "genre": ["Nekketsu", "Aventure", "Comédie"]
+    },
+    {
+        "name": "Dragon Ball",
+        "author": "Akira Toriyama",
+        "releaseYear": 1984,
+        "picture": "img/dragon_ball_arrive_enfin_en_streaming_en_france_637ce1a2326ae.jpg",
+        "genre": ["Nekketsu", "Action", "Aventure"]
+    },
+    {
+        "name": "Death Note",
+        "author": "Tsugumi Ōba",
+        "releaseYear": 2003,
+        "picture": "img/Death-note-image-mise-en-avant-814x700.jpg",
+        "genre": [" Mystère", "Thriller psychologique", "Thriller"]
+    },
+    {
+        "name": "Berserk",
+        "author": "Kentarō Miura",
+        "releaseYear": 1989,
+        "picture": "img/Detail-de-la-couverture-du-tome-5-de-Berserk-de-Kentaro-Miura-1041584.jpg",
+        "genre": ["Action", "Aventure", "Drame"]
+    },
+    {
+        "name": "Fullmetal Alchemist",
+        "author": "Hiromu Arakawa",
+        "releaseYear": 2001,
+        "picture": "img/Fullmetal-Alchemist.jpg",
+        "genre": ["Aventure", "Science Fantasy", "Steampunk"]
+    },
+    {
+        "name": "Naruto",
+        "author": "Masashi Kishimoto",
+        "releaseYear": 1999,
+        "picture": "img/dans_quel_ordre_regarder_naruto_-taille1200_605cb1caa419b.jpg",
+        "genre" : ["Nekketsu", "Action"]
+    },
+    {
+        "name": "Akira",
+        "author": "Katsuhiro Ōtomo",
+        "releaseYear": 1982,
+        "picture": "img/64a5a8d0-1406-4178-97a5-2649504faa85.jpeg",
+        "genre": ["Science-fiction", "Cyberpunk", "Dystopie"]
+    },
+    {
+        "name": "Attack On Titans",
+        "author": "Hajime Isayama",
+        "releaseYear": 2009,
+        "picture": "img/snk-pfa.jpg",
+        "genre" : ["Action", "Dark Fantasy", "Horreur"]
+    },
+    {
+        "name": "Monster",
+        "author": "Naoki Urasawa",
+        "releaseYear": 1994,
+        "picture": "img/intro-1665342673.jpg",
+        "genre": ["Policier, Drame, Thriller Psychologique"]
+    },
+    {
+        "name": "GTO",
+        "author": "Tōru Fujisawa",
+        "releaseYear": 1997,
+        "picture": "img/gto-artwork-1280x720-1.png",
+        "genre": ["Comédie", "Drame"]
+    }
+]
